@@ -1,0 +1,35 @@
+@import "@bootstrap/dist/css/bootstrap.min.css";
+
+.primaryMenu {
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+    }
+}
+
+.filtersForm {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #AAA;
+    }
+} */
+
+table {
+    background-color: #AAA;
+}
+
+header, main, footer {
+    max-width: 1400px;
+    margin: 0 auto;
+}
