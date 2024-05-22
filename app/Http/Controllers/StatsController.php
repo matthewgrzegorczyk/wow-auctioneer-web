@@ -3,11 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\ServerStats;
-use Illuminate\Http\Request;
 
 class StatsController extends Controller
 {
-    public function stats()
+    public function index()
     {
         $serverStats = ServerStats::where('server_name', '=', 'Netherwing')->get();
 

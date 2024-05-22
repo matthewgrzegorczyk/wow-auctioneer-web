@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Auctioneer\Auctioneer;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class AuctioneerController extends Controller
 {

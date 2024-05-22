@@ -2,8 +2,6 @@
 
 namespace App\Auctioneer;
 
-use function Ramsey\Uuid\v1;
-
 class Auctioneer
 {
     public array $config = [];
