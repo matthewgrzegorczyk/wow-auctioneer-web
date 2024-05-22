@@ -4,10 +4,7 @@ use App\Auctioneer\Auctioneer;
 use App\Http\Controllers\AuctioneerController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\StatsController;
-use App\Models\ServerStats;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Str;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/stats', [StatsController::class, 'index'])->name('stats');
